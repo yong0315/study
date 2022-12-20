@@ -1,0 +1,1 @@
+Sunrin Internet High School is a high school in South Korea.
