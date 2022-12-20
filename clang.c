@@ -9,6 +9,7 @@ int main() {
 		int R = rand() % 20 + 1;
 		int cal = rand() % 4;
 		int ans, num;
+		printf("[%d/10] ", cnt);
 		if (cal == 0) {
 			printf("%d + %d = ", L, R);
 			ans = L + R;
@@ -25,12 +26,12 @@ int main() {
 			printf("%d / %d = ", L, R);
 			ans = L / R;
 		}
-		scanf("%d\n", &num);
+		scanf("%d", &num);
 		if (num == ans) {
-			printf("Correct!\n");
+			printf("Correct!\n\n");
 			cnt++;
 		}
-		else printf("Wrong! Answer is %d\n", ans);
+		else printf("Wrong! Answer is %d\n\n", ans);
 	}
 	return 0;
 }
